@@ -1,0 +1,19 @@
+@media screen and (min-width: 768px) {
+    .menu {
+        list-style-type: none;
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly;
+        /* background:black; */
+        border-bottom: 1px solid lightgray;
+        border-top: 1px solid lightgray;
+    }
+
+    .menu a {
+        display: block;
+        text-decoration: none;
+        padding: 4px;
+    }
+
+}
