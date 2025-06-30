@@ -24,6 +24,7 @@ html, body {
 
 #btn-menu {
     width:30px;
+    cursor: pointer;
 }
 
 .navbar {
@@ -178,8 +179,8 @@ h2 span {
 }
 
 .services {
-    color:black;
-    background: whitesmoke;
+    color:white;
+    background-color: rgb(40, 38, 38);
     padding: 20px 40px;
     position:relative;
     border:3px solid red;
@@ -191,7 +192,7 @@ h2 span {
     display: block;
     position:absolute;
     inset:0;
-    border:3px solid black;
+    border:3px solid lightgray;
     margin:3px;
     border-radius:20px;
 }
@@ -211,13 +212,35 @@ h2 span {
     margin-top:10px;
 }
 
+.contact {
+    color:white;
+    background-color: rgb(40, 38, 38);
+    padding:20px;
+}
 
+.contact p {
+    color: rgb(224, 218, 218);
+    margin:50px 0 10px 0;
+    text-align: center;
+}
 
-.colaborador p {
+.input-group-networking {
+    margin-bottom:20px;
+    display: flex;
+    align-items: center;
+    gap:5px;
+    /* color:rgb(135, 132, 132); */
+}
+
+.input-group-networking img {
+    width:40px;
+}
+
+.collaborator p {
     margin-bottom:10px;
 }
 
-.colaborador > h3:first-of-type {
+.collaborator > h3:first-of-type {
     color:rgb(167, 163, 163);
     font-weight: 400;
 }
