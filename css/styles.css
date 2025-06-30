@@ -26,8 +26,29 @@ html, body {
     width:30px;
 }
 
+.navbar {
+    background-color: rgb(24, 23, 23);
+}
+
 .menu {
-    display: none;
+    box-shadow: 0 0 20px rgb(65, 64, 64);
+    position:relative;
+    z-index:3;
+}
+
+.menu li a {
+    display: block;
+    font-size:1rem;
+    padding:5px;
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color .1s;
+}
+
+.menu li a:hover{
+    background-color:rgb(65, 63, 63);
+    font-weight: 600;
 }
 
 
@@ -100,6 +121,11 @@ h2 span {
     text-align: center;
     font-size:2rem;
     margin-bottom:40px;
+}
+
+.title::first-letter {
+    font-size:2.5rem;
+    color:red;
 }
 
 .benefits {
@@ -188,7 +214,12 @@ h2 span {
 
 
 .colaborador p {
-    margin-top:5px;
+    margin-bottom:10px;
+}
+
+.colaborador > h3:first-of-type {
+    color:rgb(167, 163, 163);
+    font-weight: 400;
 }
 
 form {
@@ -226,3 +257,28 @@ form > h3 {
     border:1px solid gray;
 }
 
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:5px;
+    padding: 15px 0 10px 0;
+    background-color: rgb(44, 43, 43);
+    border-top:2px solid lightgrey;
+    color:rgb(215, 215, 215);
+}
+
+.footer > div {
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+
+.footer-text::first-letter {
+    font-size:1.5rem;
+    color:red;
+}
+
+.footer img {
+    width:35px;
+}
