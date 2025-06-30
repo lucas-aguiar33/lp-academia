@@ -87,6 +87,13 @@ h2 span {
     color:white;
     font-weight: bold;
     margin-top:5px;
+    transition:all .3s;
+    cursor: pointer;
+}
+
+#btn-agendar:hover {
+    background-color: rgb(185, 46, 21);
+    transition: all .3s;
 }
 
 .title {
@@ -97,6 +104,7 @@ h2 span {
 
 .beneficios {
     text-align: center;
+    display: none;
 }
 
 .card {
@@ -106,7 +114,7 @@ h2 span {
     border:1px solid black;
     position:relative;
     display: inline-block;
-    margin-bottom:20px;
+    margin-bottom:30px;
     margin-right:20px;
 }
 
@@ -143,6 +151,29 @@ h2 span {
     background: url('../img/estresse.jpg') no-repeat left center;
 }
 
+.services {
+    color:black;
+    background: white;
+    padding: 20px 40px;
+    position:relative;
+    border:4px solid red;
+    border-radius:20px;
+}
+
+.services::after {
+    content: ' ';
+    display: block;
+    position:absolute;
+    inset:0;
+    border:4px solid black;
+    margin:3px;
+    border-radius:20px;
+}
+
+.services li {
+    margin-bottom:10px;
+    font-size:1.3rem;
+}
 
 
 .colaborador p {
