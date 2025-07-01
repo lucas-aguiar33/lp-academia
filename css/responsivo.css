@@ -1,10 +1,14 @@
 @media screen and (min-width: 577px) {
+
+    section {
+        width:90vw;
+        margin:auto;
+        margin-top:40px;
+    }
     .header {
         width: 100%;
-        /* height: 60px; */
         font-weight: bold;
         display: flex;
-        /* align-items: center; */
         justify-content: center;
         padding: 20px;
         background-color: rgb(200, 196, 196);
@@ -37,9 +41,118 @@
 
     .menu li a:hover {
         background-color: rgb(24, 23, 23);
+        font-weight: normal;
+        color:red;
     }
 
     .menu-hamburguer {
         display: none;
+    }
+}
+
+
+@media screen and (min-width: 600px){
+    .home-text h2 {
+        font-size:2.5rem;
+    }
+
+    /* section {
+        width:80vw;
+        margin:auto;
+    } */
+}
+
+@media screen and (min-width: 676px) {
+    .contact-networking {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
+        gap:20px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    section {
+        width:80vw;
+    }
+
+    section:first-of-type {
+        width:100%;
+        padding:30px;
+    }
+
+    .home-text {
+        width:65%;
+    }
+
+    .home-text h2 {
+        font-size:2.2rem;
+        margin:5px 0;
+    }
+
+    .home-img {
+        display: block;
+        width:30%;
+    }
+
+    .home-img img {
+        width:100%;
+        border-radius:10px;
+    }
+
+    #btn-agendar {
+        width:70%;
+    }
+
+    .card {
+        width:280px;
+        height: 280px;
+    }
+}
+
+@media screen and (min-width:920px) {
+    .home-text {
+        padding-left:50px;
+    }
+
+    .home-text h2 {
+        font-size:3rem;
+        margin:20px 0;
+    }
+
+
+
+    form {
+        max-width:60vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        'title title'
+        'name lastname'
+        'email phone'
+        'city state'
+        'curriculum curriculum';
+    }
+}
+
+
+@media screen and (min-width:1024px) {
+
+    section:first-of-type {
+        width:90%;
+    }
+
+    .home-text h2 {
+        margin: 15px 0;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .home-img img {
+        width:95%;
+    }
+
+    .home-text h2 {
+        margin: 40px 0;
     }
 }

@@ -38,12 +38,12 @@
                     <h1>Cuidando da sua saúde física <br> e mental
                     </h1>
                     <p>Quer qualidade de vida? Seu lugar é aqui !</p>
-                    <h2 class="principal">VIDA <span>FITNESS</span> <br> ACADEMIA</h2>
+                    <h2 class="principal">VIDA <span>FITNESS</span> ACADEMIA</h2>
                     <p>Agende um horário e faça uma aula experimental conosco</p>
                     <button id="btn-agendar">Agendar Horário</button>
                 </div>
                 <div class="home-img">
-                    <!-- <img src="./img/img-home-halteres.png" alt=""> -->
+                    <img src="./img/musculacao.jpg" alt="">
                 </div>
             </div>
         </section>
@@ -97,6 +97,10 @@
         <section>
             <h2 class="title">Onde nos encontrar?</h2>
             <div class="contact">
+                <div class="contact-location">
+                    <p>Rua XXXXXX, n XX, Centro, Além Paraíba - MG</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29620.172241635857!2d-42.71016793683291!3d-21.87598401957986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa2a806dd377ecf%3A0x92a14de278fc0a5f!2zQWzDqW0gUGFyYcOtYmEsIE1HLCAzNjY2MC0wMDA!5e0!3m2!1spt-BR!2sbr!4v1751305602897!5m2!1spt-BR!2sbr" width=100% height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
                 <div class="contact-networking">
                     <div class="input-group-networking">
                         <img src="./img/img-email.png"  alt="">
@@ -115,11 +119,6 @@
                         <span>(XX) XXXX-XXXX</span>
                     </div>
                 </div>
-
-                <div class="contact-location">
-                    <p>Rua XXXXXX, n XX, Centro, Além Paraíba - MG</p>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29620.172241635857!2d-42.71016793683291!3d-21.87598401957986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa2a806dd377ecf%3A0x92a14de278fc0a5f!2zQWzDqW0gUGFyYcOtYmEsIE1HLCAzNjY2MC0wMDA!5e0!3m2!1spt-BR!2sbr!4v1751305602897!5m2!1spt-BR!2sbr" width=100% height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
             </div>
         </section>
 
@@ -130,43 +129,32 @@
                 <h3>Venha fazer parte da nossa equipe !</h3>
                 
                 <form action="">
-                    <h3>Dados Cadastrais</h3>
-                    <div class="input-group">
+                    <h3 class="title-form">Dados Cadastrais</h3>
+                    <div class="input-group name">
                         <label for="f-name">Nome:</label>
                         <input type="text" name="name" id="f-name" placeholder="Seu primeiro nome">
                     </div>
-                    <div class="input-group">
+                    <div class="input-group lastname">
                         <label for="f-lastname">Sobrenome:</label>
                         <input type="text" name="lastname" id="f-lastname">
                     </div>
-                    <div class="input-group">
+                    <div class="input-group email">
                         <label for="f-email">E-mail:</label>
                         <input type="email" name="email" id="f-email">
                     </div>
-                    <div class="input-group">
+                    <div class="input-group phone">
                         <label for="f-phone">Telefone:</label>
                         <input type="tel" name="phone" id="f-phone">
                     </div>
                     <div class="input-group state">
-                        <label for="f-state">UF:</label>
-                        <select name="state" id="f-state">
-                            <option value="mg" selected>MG</option>
-                            <option value="rj">RJ</option>
-                            <option value="sp">SP</option>
-                            <option value="ba">BA</option>
-                            <option value="mt">MT</option>
-                            <option value="to">TO</option>
-                            <option value="rs">RS</option>
-                            <option value="rn">RN</option>
-                            <option value="al">AL</option>
-                            <option value="pe">PE</option>
-                        </select>
+                        <label for="f-state">Estado:</label>
+                        <input type="text" name="state" id="f-state">
                     </div>
-                    <div class="input-group">
+                    <div class="input-group city">
                         <label for="f-city">Cidade:</label>
                         <input type="text" name="city" id="f-city">
                     </div>
-                    <div class="input-group">
+                    <div class="input-group curriculum">
                         <label for="f-cidade">Anexar currículo:</label>
                         <input type="file" name="curriculum" id="f-curriculum" class="curriculum">
                     </div>

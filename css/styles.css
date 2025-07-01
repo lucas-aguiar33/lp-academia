@@ -57,7 +57,7 @@ html, body {
     color:white;
     text-decoration: none;
     text-align: center;
-    transition: background-color .1s;
+    transition: all .1s;
 }
 
 .menu li a:hover{
@@ -69,7 +69,6 @@ html, body {
 section {
     margin:30px 0;
     padding:20px;
-    /* background-color: white; */
 }
 
 .home {
@@ -114,7 +113,7 @@ h2 span, .home h2::first-letter, .logo span::first-letter {
 }
 
 #btn-agendar {
-    width:80%;
+    width:100%;
     padding:20px;
     font-size:1.2rem;
     border:none;
@@ -145,12 +144,11 @@ h2 span, .home h2::first-letter, .logo span::first-letter {
 
 .benefits {
     text-align: center;
-    /* display: none; */
 }
 
 .card {
-    width:280px;
-    height: 280px;
+    width:250px;
+    height: 250px;
     border-radius:50%;
     border:1px solid black;
     position:relative;
@@ -160,7 +158,7 @@ h2 span, .home h2::first-letter, .logo span::first-letter {
 }
 
 .card span {
-    font-size:2rem;
+    font-size:1.8rem;
     font-weight: bold;
     position:absolute;
     top:50%;
@@ -235,17 +233,15 @@ h2 span, .home h2::first-letter, .logo span::first-letter {
 
 .contact p {
     color: rgb(224, 218, 218);
-    margin:50px 0 10px 0;
+    margin:10px 0 10px 0;
     text-align: center;
 }
 
 .input-group-networking {
-    margin-bottom:20px;
+    margin-top:30px;
     display: flex;
-    /* flex-flow: row wrap; */
     align-items: center;
     gap:5px;
-    /* color:rgb(135, 132, 132); */
 }
 
 .input-group-networking img {
@@ -259,6 +255,7 @@ h2 span, .home h2::first-letter, .logo span::first-letter {
 .collaborator > h3:first-of-type {
     color:rgb(167, 163, 163);
     font-weight: 400;
+    text-align: center;
 }
 
 form {
@@ -283,7 +280,7 @@ form > h3 {
 }
 
 
-.input-group:not(.state) {
+.input-group {
     display: flex;
     flex-direction: column;
     gap:3px;
@@ -306,6 +303,7 @@ form > h3 {
     background-color: rgb(44, 43, 43);
     border-top:2px solid lightgrey;
     color:rgb(215, 215, 215);
+    margin-top:60px;
 }
 
 .footer > div {
@@ -325,4 +323,29 @@ form > h3 {
 
 .active {
     display: block;
+}
+
+.title-form{
+    grid-area: title;
+}
+.name {
+    grid-area: name;
+}
+.lastname {
+    grid-area: lastname;
+}
+.email {
+    grid-area: email;
+}
+.phone {
+    grid-area: phone;
+}
+.state {
+    grid-area: state;
+}
+.city {
+    grid-area: city;
+}
+.curriculum {
+    grid-area: curriculum;
 }
