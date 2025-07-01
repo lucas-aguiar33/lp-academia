@@ -22,6 +22,19 @@ html, body {
     background-color: rgb(200, 196, 196);
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+    gap:5px;
+    color:black;
+    font-size:1.2rem;
+    font-weight: bold;
+}
+
+.logo img {
+    width:30px;
+}
+
 #btn-menu {
     width:30px;
     cursor: pointer;
@@ -90,11 +103,11 @@ section {
 .home-text h2 {
     font-size:3rem;
     margin:20px 0;
-    color:tomato;
+    color:rgb(207, 202, 202);
 }
 
-h2 span {
-    color:rgb(207, 202, 202);
+h2 span, .home h2::first-letter, .logo span::first-letter {
+    color:red;
 }
 
 .home-img {
@@ -124,11 +137,11 @@ h2 span {
     text-align: center;
     font-size:2rem;
     margin-bottom:40px;
+    color: rgb(214, 210, 210);
 }
 
 .title::first-letter {
-    font-size:2.5rem;
-    color:red;
+    font-size:2.3rem;
 }
 
 .benefits {
