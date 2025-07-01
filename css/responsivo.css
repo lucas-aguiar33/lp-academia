@@ -99,6 +99,21 @@
     #btn-agendar {
         width:70%;
     }
+
+    /* .benefits {
+        text-align: start;
+    } */
+
+     #section-benefits {
+        width:100vw;
+        padding:0 30px;
+    }
+
+    .card {
+        width:220px;
+        height: 220px;
+    }
+
 }
 
 
@@ -136,6 +151,11 @@
         margin: 15px 0;
     }
 
+    .card {
+        width:260px;
+        height: 260px;
+    }
+    
     .services {
         padding:20px 55px;
     }   

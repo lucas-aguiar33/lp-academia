@@ -148,8 +148,8 @@ h2 span, .home h2::first-letter, .logo span::first-letter {
 
 .card {
     display: inline-block;
-    width:280px;
-    height: 280px;
+    width:250px;
+    height: 250px;
     margin-right: 20px;
     margin-bottom: 40px;
     border-radius:50%;
