@@ -42,7 +42,7 @@
     .menu li a:hover {
         background-color: rgb(24, 23, 23);
         font-weight: normal;
-        color:red;
+        color:rgb(210, 201, 201);
     }
 
     .menu-hamburguer {
@@ -55,11 +55,6 @@
     .home-text h2 {
         font-size:2.5rem;
     }
-
-    /* section {
-        width:80vw;
-        margin:auto;
-    } */
 }
 
 @media screen and (min-width: 676px) {
@@ -104,10 +99,10 @@
         width:70%;
     }
 
-    .card {
+    /* .card {
         width:280px;
         height: 280px;
-    }
+    } */
 }
 
 @media screen and (min-width:920px) {
@@ -145,6 +140,12 @@
     .home-text h2 {
         margin: 15px 0;
     }
+
+    .services {
+        padding:20px 55px;
+    }
+
+  
 }
 
 @media screen and (min-width:1200px) {
@@ -154,5 +155,10 @@
 
     .home-text h2 {
         margin: 40px 0;
+    }
+
+    .contact {
+        width:70vw;
+        margin:0 auto;
     }
 }
