@@ -35,6 +35,7 @@ html, body {
     box-shadow: 0 0 20px rgb(65, 64, 64);
     position:relative;
     z-index:3;
+    display: none;
 }
 
 .menu li a {
@@ -89,10 +90,11 @@ section {
 .home-text h2 {
     font-size:3rem;
     margin:20px 0;
+    color:tomato;
 }
 
 h2 span {
-    color:rgb(226, 47, 47);
+    color:rgb(207, 202, 202);
 }
 
 .home-img {
@@ -105,7 +107,7 @@ h2 span {
     font-size:1.2rem;
     border:none;
     border-radius:10px;
-    background-color: rgb(224, 85, 61);
+    background-color:rgb(255, 96, 68);
     color:white;
     font-weight: bold;
     margin-top:5px;
@@ -114,7 +116,7 @@ h2 span {
 }
 
 #btn-agendar:hover {
-    background-color: rgb(185, 46, 21);
+    background-color: rgb(199, 46, 19);
     transition: all .3s;
 }
 
@@ -285,7 +287,7 @@ form > h3 {
     flex-direction: column;
     align-items: center;
     gap:5px;
-    padding: 15px 0 10px 0;
+    padding: 12px 0;
     background-color: rgb(44, 43, 43);
     border-top:2px solid lightgrey;
     color:rgb(215, 215, 215);
@@ -304,4 +306,8 @@ form > h3 {
 
 .footer img {
     width:35px;
+}
+
+.active {
+    display: block;
 }

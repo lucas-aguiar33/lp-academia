@@ -5,9 +5,8 @@
         margin: auto;
         display: flex;
         justify-content: space-evenly;
-        /* background:black; */
-        border-bottom: 1px solid lightgray;
-        border-top: 1px solid lightgray;
+        box-shadow:none;
+        padding:5px;
     }
 
     .menu a {
@@ -16,4 +15,7 @@
         padding: 4px;
     }
 
+    .menu li a:hover {
+        background-color: rgb(24, 23, 23);
+    }
 }
