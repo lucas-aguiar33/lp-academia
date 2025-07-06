@@ -39,32 +39,71 @@ html, body {
     cursor: pointer;
 }
 
-.navbar {
-    background-color: rgb(24, 23, 23);
-}
-
 .menu {
-    box-shadow: 0 0 20px rgb(65, 64, 64);
-    position:relative;
-    z-index:3;
     display: none;
 }
 
-.menu li a {
-    display: block;
-    font-size:1rem;
-    padding:5px;
-    color:white;
-    text-decoration: none;
-    text-align: center;
-    transition: all .1s;
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width:70vw;
+    min-height: 100vh;
+    position:absolute;
+    top:0;
+    right:0;
+    z-index:3;
+    background-color: rgb(24, 23, 23);
+    display: none;
 }
 
-.menu li a:hover{
+.sidebar-header {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:14px;
+    border-bottom:1px solid rgb(103, 10, 10);
+
+}
+
+.sidebar-header h3::first-letter {
+    color:red;
+}
+
+.sidebar-header-logo {
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+
+.sidebar-header-logo img {
+    width:30px;
+}
+
+.side-menu {
+    list-style-type: none;
+}
+
+.side-menu a {
+    display: block;
+    width:100%;
+    padding:5px;
+    padding-left:20px;
+    text-decoration: none;
+    color:white;
+    font-size:1rem;
+    margin-bottom:15px;
+    transition: background-color .1s linear;
+}
+
+.side-menu a:hover {
     background-color:rgb(65, 63, 63);
     font-weight: 600;
 }
 
+#btn-close {
+    font-size:1.8rem;
+    cursor: pointer;
+}
 
 section {
     margin:70px 0;
